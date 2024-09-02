@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.logo{
+    font-weight: 400;
+    font-size: 60px;
+    color:magenta;
+    padding-left: 0%;
+    text-shadow: 0 2px 1px black;
+}
+body{
+    --winning-blocks: yellow; /* Set winning block color */
+    
+    margin-top:0px;
+    padding: 0px;
+    background-image:url('toe.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+.sath{
+    color:orange;
+}
+.sath1{
+    color:#03C03C;
+    font-family:cursive;
+    font-style:italic;
+}
+.sath1 span{
+
+           color:black;  
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 10px 10px 15px #03C03C;
+    align-items: center;
+    border: azure;
+    background-color: white;
+}
+.nav{
+    display: flex;
+    padding-right: 100px;
+
+}
+
+.nav a{
+    padding: 10px 20px;
+    color: black;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.nav a:hover{
+    color: #03C03C;
+}
+#tit{
+    margin-top: 150px;
+    color:#03C03C;
+    text-align: center;
+    font-weight: 500px;
+    font-size: 70px;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 1rem;
+
+}
+#fo
+{
+text-align: center;
+padding:2px;
+background-color: #03C03C;
+margin: 0 30%;
+margin-top:2rem;
+font-size: 25pxS;
+}
+#fo h2{
+    padding: 16px;
+    font-size: 50px;
+    margin-bottom: 2rem;
+    color: aliceblue;
+    text-shadow: 0 2px 7px black;
+}
+.name{
+    /* font-weight: 500; */
+    font-size: 50px;
+
+}
+input{
+    width: 400px;
+    height: 50px;
+    font-size: 30px;
+
+}
+label{
+    font-size: 40px !important;
+}
+#det{
+
+        border: none;
+        background-color: whitesmoke;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 8px;
+        color:#03C03C;
+        font-size:30px;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    
+}
+#det:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
