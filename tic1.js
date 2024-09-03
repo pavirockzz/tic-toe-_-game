@@ -1,3 +1,4 @@
+//test commit 
 let playerText = document.getElementById('tit');
 let restartBtn = document.getElementById('sath');
 let boxes = Array.from(document.getElementsByClassName('box'));
